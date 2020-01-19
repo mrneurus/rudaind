@@ -1,10 +1,36 @@
-
-/* logoSidebar */
-
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap&subset=latin-ext,vietnamese');
 
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* hackgenerales */
+
+.h-7{
+  height: 155vh;
+  object-fit: cover;
+}
+
+.hpp{
+  height: 100vmax;
+  object-fit: cover;
+}
+
+.hee{
+  height:115vmax;
+  object-fit: cover;
+}
 
 
+.no-padding{
+  padding: 0%;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
 
 /* Sidebar */
 #sidebar-wrapper{
@@ -20,6 +46,8 @@
       align-items:center;
   }
 
+  /* logoSidebar */
+
   .logoRuda{
       position: absolute;
       width: 100%;
@@ -28,13 +56,28 @@
       align-items: flex-start;
       justify-content: center;
       top: 20vmin;
+      font-family: 'Bungee Shade', cursive;
+      color: #fff;  
       }
   
+
+.boton{
+  position: absolute;
+  z-index: 100;
+
+}
+
+
+
+
+
+
+
   /* Main Content */
   #page-content-wrapper{
     width: 100%;	
     position: absolute;
-    padding:15px;
+    padding:0px;
       transition:all .5s;
   }
   
@@ -93,4 +136,11 @@
     .btn:focus {
         outline: 0;
         box-shadow: 0 0 0 .2rem rgba(245, 246, 247, 0.25);
+    }
+
+
+    /* carrusel */
+
+    .carousel-inner{
+      height: 85vmin;
     }
