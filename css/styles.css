@@ -46,12 +46,6 @@ section.maqueta{
 }
 
 
-
-
-
-
-
-
 /* Sidebar */
 #sidebar-wrapper{
     z-index:1;
@@ -87,12 +81,6 @@ section.maqueta{
   z-index: 100;
 
 }
-
-
-
-
-
-
 
   /* Main Content */
   #page-content-wrapper{
@@ -200,4 +188,33 @@ section.ban2{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 100%;
+}
+
+/* socialnet */
+
+.socialnet{
+/*  background-color: red; */
+ height: 100px;
+ width: 100%;
+ position: absolute;
+ bottom: 10%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: flex-end;
+}
+
+.socialnet ul{
+display: flex;
+list-style: none;
+/* background-color: blue; */
+width: 50%;
+justify-content: space-around;
+align-self: center;
+
+}
+
+.socialnet .icon{
+  font-size: 25px;
+  color: #fff;
 }
